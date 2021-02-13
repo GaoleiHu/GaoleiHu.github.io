@@ -5,7 +5,7 @@ body{
 .main-text{
     background-color: rgb(255, 255, 255, 0.5); 
     margin: 0 auto; 
-    width: 1050px;
+    width: 1200px;
 }
 .main-intro{
     font-family: 'Times New Roman', Times, serif; 
@@ -14,7 +14,7 @@ body{
 }
 .block{
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
 }
 .divider {
 height: 1px;
