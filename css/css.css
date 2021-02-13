@@ -10,10 +10,16 @@ body{
 .main-intro{
     font-family: 'Times New Roman', Times, serif; 
     margin: auto auto; 
-    font-size: larger
+    font-size: larger;
 }
 .my-name{
     font-size: x-large;
+}
+.language_block{
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 0 0;
+    text-align: right;
 }
 .block{
     margin: 0 auto;
