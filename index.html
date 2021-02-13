@@ -1,58 +1,19 @@
 <!DOCTYPE html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hu Gaolei">
   <meta name="keywords" content="HU GAOLEI, ee, CUHK"> 
   <meta name="description" content="HU Gaolei's Homepage">
   <title>HU GAOLEI's Homepage</title>
-  <style>
-    body{
-      background-color: whitesmoke;
-      background-image: url("blue-snow/blue-snow.png");
-    }
-    .divider {
-      height: 1px;
-      background-color: #000;
-      display: block;
-      margin: 0 auto;
-      width: 85%;
-      margin-bottom: 9px;
-    }
-    .normal{
-      font-family:Arial, Helvetica, sans-serif;
-      font-size: medium;
-      line-height: 150%;
-      margin: 0 auto;
-      width: 82%;
-    }
-    .section-title {
-      
-      margin-bottom: 0px;
-      font-size: larger;
-      font-weight: bold;
-      color: #609;
-      margin: 0 auto;
-      width: 85%;
-    }
-    a:link {
-    color:#0072BD;
-    text-decoration:none;
-    }
-    a:hover{
-    color:#0072BD;
-    text-decoration:underline;
-    }
-    a:visited {
-    color:#0072BD;
-    text-decoration:none;
-    }
-  </style>
+  <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
   <br>
-  <div style="background-color: rgb(255, 255, 255, 0.5); margin: 0 auto; width: 1050px;">
+  <div class="main-text">
     <br>
     <div style="display: flex; flex-direction: row;">
       <img src="./profile.png" width="170" height="215" style="margin-left: 10%;">
-      <div style="font-family: 'Times New Roman', Times, serif; margin: auto auto; font-size: larger">
+      <div class="main-intro">
         <p><strong>HU GAOLEI(胡高磊), Ph.D. candidate</strong></p>
         <p>Department of Electronic Engineering</p>
         <p>The Chinese University of Hong Kong</p>
@@ -62,7 +23,7 @@
       </div>
     </div>
     <br>
-    <div>
+    <div class="block">
       <p class="section-title" >About Me</p>
       <div class="divider"></div>
       <p class="normal">
@@ -71,31 +32,32 @@
       </p>
     </div>
     <br>
-    <div>
+    <div class="block">
       <p class="section-title">Education</p>
       <div class="divider"></div>
       <ul class="normal">
-        <li>Ph.D in Electronic Engineering, The Chinese University of Hong Kong (CUHK), 2020~now</li>
-        <li>B.Sc in School of Optical and Electronic Information, Huazhong University of Science and University (HUST), 2016~2020</li>
+        <li>Ph.D in Electronic Engineering, The Chinese University of Hong Kong (CUHK), Aug.2020-now</li>
+        <li>Summer School Program in Optoelectronics Research Centre (ORC), University of Southampton, July.2018-Aug.2018</li>
+        <li>B.Sc in School of Optical and Electronic Information (OEI), Huazhong University of Science and University (HUST), Sep.2016~Jun.2020</li>
       </ul>
     </div>
     <br>
-    <div>
+    <div class="block">
       <p class="section-title">Publications</p>
       <div class="divider"></div>
-      <p style="font-style: italic; margin: 0 auto; width: 83%; font-family: Arial, Helvetica, sans-serif; font-size: medium;" >Journal papers:</p>
+      <p class="sub-title">Journal papers:</p>
       <ol class="normal">
         <li>Yaojing Zhang, Keyi Zhong, <strong>Gaolei Hu</strong>, Dan Yi, Rakesh Ranjan Kumar and H. K. Tsang, "<a href="https://aip.scitation.org/doi/full/10.1063/5.0025490" target="_blank">Sub-milliwatt optical frequency combs in dual-pumped high-Q multimode silicon resonators</a>", Appl. Phys. Lett. 117, 221103 (2020).</li>
       </ol>
       <br>
-      <p style="font-style: italic; margin: 0 auto; width: 83%; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Conference papers:</p>
+      <p class="sub-title">Conference papers:</p>
       <ol class="normal">
         <li>Keyi Zhong*, <strong>Gaolei Hu*</strong>, Wen Zhou, Yaojing Zhang, and H. K. Tsang. "Low power frequency comb generation in dual-pumped high-Q multimode silicon resonators", The 20th IEEE Photonics Society (Hong Kong Chapter) Postgraduate Conference, 2021.</li>
       </ol>
-      <p style="font-family: Arial, Helvetica, sans-serif; font-size: small; color: grey; font-style: italic; width: 80%; margin: 0 auto;">* denotes equally contributed. </p>
+      <p class="note">* denotes equally contributed. </p>
     </div>
     <br>
-    <div>
+    <div class="block">
       <p class="section-title">Teaching</p>
       <div class="divider"></div>
       <p class="normal">Teaching assistant for the following courses at CUHK during PhD study:</p>
@@ -103,10 +65,10 @@
         <li>2020  Fall    ELEG3302 Fundementals of Photonics</li>
         <li>2021  Spring  ELEG4312 Microoptic Devices and Systems</li>
       </ul>-->
-        <table id="tbTeaching" border="0" style="width: 78%; margin: 0 auto; font-family:Arial,Helvetica, sans-serif; font-size: medium;">
-        <tbody>
+        <table id="tbTeaching" border="0" class="table">
+        <tbody class="normal">
           <tr>
-            <td>2020</td><td>Fall</S></td><td>ELEG3302 Fundementals of Photonics</td>
+            <td>2020</td><td>Fall</td><td>ELEG3302 Fundementals of Photonics</td>
           </tr>
           <tr>
             <td>2021</td><td>Spring</td><td>ELEG4312 Microoptic Devices and Systems</td>
@@ -116,7 +78,7 @@
       
     </div>
     <br>
-    <div>
+    <div class="block">
       <p class="section-title">Contact</p>
       <div class="divider"></div>
       <p class="normal">Room 310, Ho Sin Heng Engineering Building<br>
@@ -129,7 +91,7 @@
   <a href="https://clustrmaps.com/site/1bg6r"  title="Visit tracker"><img src="http://www.clustrmaps.com/map_v2.png?d=revTy2M8La2V-0GQNWBe6Wl4eIvnVG_fkm9B_A7Jkoo&cl=ffffff" /></a>
 </p>
     
-    <p style="font-family: Arial, Helvetica, sans-serif; font-size: small; color: grey; text-align: center;">
+    <p class="footer">
       <br>© Gaolei Hu | Last updated: Feb 2021</p>  
   </div>
   <br>
