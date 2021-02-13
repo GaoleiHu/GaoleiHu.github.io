@@ -3,7 +3,7 @@ body{
     background-image: url("../blue-snow/blue-snow.png");
   }
 .block-main{
-    background-color: rgb(255, 255, 255, 0.3); 
+    background-color: rgb(255, 255, 255, 0.4); 
     margin: 0 auto; 
     width: 1100px;
     margin-right: 5px;
