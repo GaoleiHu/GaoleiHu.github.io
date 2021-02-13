@@ -28,7 +28,7 @@ font-family:Arial, Helvetica, sans-serif;
 font-size: medium;
 line-height: 150%;
 margin: 0 auto;
-width: 98%;
+width: 96%;
 }
 .section-title {
 margin-bottom: 0px;
@@ -46,10 +46,15 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: medium;
 }
 .table{
-    width: 95%; 
-    margin: 0 auto; 
+    width: 95%;
+    margin: auto auto;
     font-family:Arial,Helvetica, sans-serif; 
     font-size: medium;
+    padding: 0;
+}
+.up_align{
+    vertical-align: top;
+    text-align: center;
 }
 .note{
 font-family: Arial, Helvetica, sans-serif; 
