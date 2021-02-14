@@ -1,6 +1,6 @@
 body{
     background-color: whitesmoke;
-    background-image: url("../blue-snow/blue-snow.png");
+    background-image: url("../images/background/blue-snow/blue-snow.png");
   }
 .block-show{
     display: flex;
