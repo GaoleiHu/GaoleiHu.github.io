@@ -2,12 +2,19 @@ body{
     background-color: whitesmoke;
     background-image: url("../blue-snow/blue-snow.png");
   }
+.block-show{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1200px;
+}
 .block-main{
     background-color: rgb(255, 255, 255, 0.4); 
     margin: 0 auto; 
-    width: 900px;
+    width: 940px;
     margin-right: 5px;
-    margin-left: 25px;
+    margin-left: 0px;
+    float: left;
 }
 .main-intro{
     font-family: 'Times New Roman', Times, serif; 
