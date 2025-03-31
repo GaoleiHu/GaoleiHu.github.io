@@ -43,6 +43,7 @@ body{
     margin-left: 10px;
 }
 .my-name{
+    font-family: 'Arial';
     font-size: xx-large;
 }
 .language_block{
